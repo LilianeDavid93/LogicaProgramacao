@@ -1,35 +1,27 @@
 programa
 {
+	
 	funcao inicio()
-	{ 	
-		const cadeia nome = "Liliane"
-
-		cadeia login
-		inteiro senha
-		senha = 123456
-		
-		escreva("Digite seu nome ou e-mail: ")
-		leia(login)
-
-		escreva("Digite sua senha: ")
-		leia(senha)
-
-		se(nome == login e senha == 123456)
-		{
-			escreva("Acesso liberado")			
+	{
+		para(inteiro i=0; i<=5; i++){
+			escreva(".\n")
+			para(inteiro j=0; j<=50; j++){
+				escreva("0")
+				}
+				para(inteiro j=0; j<=50; j++){
+				escreva("7")
+				}
+				
+			
 		}
-		senao
-		{
-			escreva("Acesso negado")
 		}
-	}
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 14; 
+ * @POSICAO-CURSOR = 119; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

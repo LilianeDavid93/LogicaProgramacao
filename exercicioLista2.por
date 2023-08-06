@@ -14,13 +14,7 @@ O tempo de vida meu e dos meus colegas é 163.*/
 	funcao inicio()
 	{
 		escreva("Bem vindo ao programa Hera\n")
-		inteiro c1
-		inteiro c2
-		inteiro c3
-		inteiro c4
-		inteiro c5
-		inteiro eu
-		inteiro resultado
+		inteiro c1, c2, c3, c4, c5, eu, resultado
 		
 		escreva("Qual sua idade? ")
 		leia(c1)
@@ -44,7 +38,7 @@ O tempo de vida meu e dos meus colegas é 163.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 613; 
+ * @POSICAO-CURSOR = 572; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
