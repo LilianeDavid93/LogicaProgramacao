@@ -1,31 +1,38 @@
 programa
-{/*3. Escreva um algoritmo que leia uma sequência de números do usuário e
+{/*3. Escreva um algoritmo que leia uma sequência de números do usuário e
 realize a soma desses números. Encerre a execução quando um número
 negativo for digitado.*/
+	inclua biblioteca Util -->u
 	
 	funcao inicio()
 	{
-		inteiro n1, n2, n3
+		inteiro numeros[3]
 		inteiro resultado = 0
 		
-		escreva("Digite um numero: \n")
-		leia(n1)
-		escreva("Digite o proximo numero: \n")
-		leia(n2)
-		escreva("Digite o ultimo numero: \n")
-		leia(n3)
+		para(inteiro contador = 0; contador < Util.numero_elementos(numeros); contador++)
+		{	
+			inteiro entrada
+			escreva("Digite um número: \n")
+			leia(entrada)
 
-		resultado = n1 + n2 + n3 
-
-		se(n1 <0 ou n2<0 ou n3 <0)
-		{
-			escreva("Programa encerrado, digite um numero valido!")
+			se(entrada <0)
+			{
+				escreva("ERRO!! Este valor nao pode ser negativo.\n\n")
+				contador--
+			}
+			senao
+			{
+				numeros[contador] = entrada
+			}
+			
 		}
-		senao
+
+		para(inteiro contador =0; contador < Util.numero_elementos(numeros); contador++)
 		{
-			escreva("A soma dos numeros sao: \n" +resultado)
+			resultado = resultado + numeros[contador] 
 		}
 		
+		escreva("O resultado da soma é: " + resultado)
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -33,9 +40,9 @@ negativo for digitado.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 446; 
+ * @POSICAO-CURSOR = 344; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {numeros, 9, 10, 7}-{contador, 12, 15, 8}-{entrada, 14, 11, 7}-{contador, 30, 15, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
