@@ -1,48 +1,41 @@
 programa
-{
-	/*Lista 1 - O objetivo nesse momento é utilizar o que vimos, a estética ainda não será
-a melhor, mas force seu raciocínio para atender o máximo de exigência do
-enunciado.
-1. O programa “Poseidon” pergunta seu nome e sobrenome, e depois
-gentilmente te cumprimenta.
-- 1o etapa: perguntar o nome;
-- 2o etapa: perguntar o sobrenome;
-- 3o etapa: junta o nome com o sobrenome e forma uma frase.*/
+{ inclua biblioteca Util 
 
 	funcao inicio()
 	{
-		cadeia nome
-		cadeia sobrenome
+		cadeia nome, sobrenome
 		inteiro opcaoEscolhida
 				
-		escreva("Bem vindo ao Poseidon.\n")
+		escreva("================Bem vindo ao Poseidon.===============\n\n")
+		Util.aguarde(2000)
 		escreva("Qual seu nome? ")
 		leia(nome)
-		escreva("Qual seu sobrenome? ")
+		escreva("Qual seu sobrenome? \n")
 		leia(sobrenome)
-		escreva("Escolha uma das opções a baixo.\n")
-		escreva(1 + " Facebook\n")
-		escreva(2 + " Instagram\n")
-		escreva(3 + " Twitter\n")
-		escreva(4 + " Lindekin\n")
+		Util.aguarde(1000)
+		escreva("Escolha uma das opções a baixo.\n\n")
+		escreva(1 + " ===============Facebook=============\n")
+		escreva(2 + " ==============Instagram=============\n")
+		escreva(3 + " ===============Twitter==============\n")
+		escreva(4 + " ==============Lindekin==============\n")
 		leia(opcaoEscolhida)
 
 		escolha (opcaoEscolhida)
 		{
 			caso 1:
-			escreva("Bem vindo ao Facebook " + " " + nome + " " + sobrenome)
+			escreva("*****Bem vindo ao Facebook*****" + " " + nome + " " + sobrenome)
 			pare
 		
 			caso 2:
-			escreva("Bem vindo ao Instagram " + " " + nome + " " + sobrenome)
+			escreva("*****Bem vindo ao Instagram*****" + " " + nome + " " + sobrenome)
 			pare
 		
 			caso 3:
-			escreva("Bem vindo ao Twitter " + " " + nome + " " + sobrenome)
+			escreva("*****Bem vindo ao Twitter *****" + " " + nome + " " + sobrenome)
 			pare
 		
 			caso 4:
-			escreva("Bem vindo ao Linkedin " + " " + nome + " " + sobrenome)
+			escreva("*****Bem vindo ao Linkedin*****" + " " + nome + " " + sobrenome)
 			pare
 
 			caso contrario:
@@ -50,10 +43,13 @@ gentilmente te cumprimenta.
 			pare
 		}
 		
+		Util.aguarde(5000)
+		limpa()
 		
-
-		
-		//escreva("Seja bem vindo ao Poseidon, " + nome + " " + sobrenome)
+		se(opcaoEscolhida <1 ou opcaoEscolhida > 4)
+		{
+			inicio()
+		}
 		
 	}
 }
@@ -62,9 +58,9 @@ gentilmente te cumprimenta.
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1243; 
+ * @POSICAO-CURSOR = 680; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {nome, 14, 9, 4}-{sobrenome, 15, 9, 9}-{opcaoEscolhida, 16, 10, 14};
+ * @SIMBOLOS-INSPECIONADOS = {nome, 6, 9, 4}-{sobrenome, 6, 15, 9}-{opcaoEscolhida, 7, 10, 14};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

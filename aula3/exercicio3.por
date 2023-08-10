@@ -1,7 +1,5 @@
 programa
-{/*3. Escreva um algoritmo que leia uma sequência de números do usuário e
-realize a soma desses números. Encerre a execução quando um número
-negativo for digitado.*/
+{
 	inclua biblioteca Util -->u
 	
 	funcao inicio()
@@ -24,7 +22,6 @@ negativo for digitado.*/
 			{
 				numeros[contador] = entrada
 			}
-			
 		}
 
 		para(inteiro contador =0; contador < Util.numero_elementos(numeros); contador++)
@@ -40,9 +37,9 @@ negativo for digitado.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 344; 
+ * @POSICAO-CURSOR = 424; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {numeros, 9, 10, 7}-{contador, 12, 15, 8}-{entrada, 14, 11, 7}-{contador, 30, 15, 8};
+ * @SIMBOLOS-INSPECIONADOS = {numeros, 7, 10, 7}-{contador, 10, 15, 8}-{entrada, 12, 11, 7}-{contador, 27, 15, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

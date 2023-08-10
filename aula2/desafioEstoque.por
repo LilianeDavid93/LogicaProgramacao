@@ -6,8 +6,8 @@ programa
     funcao inicio()
     {
         cadeia produtos[][] = {
-        	{"Camisa", "10"},{"Calça", "5"},{"Sapato", "0"},
-        	{"Bone", "20"},{"Saia", "12"}, {"Meia", "0"},
+        	{"Camisa", "10"},{"Calça", "5"},{"Sapatilha", "0"},
+        	{"Camiseta", "20"},{"Saia", "12"}, {"Meia", "0"},
         	{"Tenis", "0"}, {"Chinelo", "0"}}
         inteiro opcao
 //menu
@@ -65,9 +65,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1565; 
+ * @POSICAO-CURSOR = 176; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {produtos, 8, 15, 8}-{opcao, 12, 16, 5}-{linha, 26, 23, 5}-{numeroConvertido, 28, 19, 16}-{linha, 37, 23, 5}-{numeroConvertido, 39, 19, 16};
+ * @SIMBOLOS-INSPECIONADOS = {produtos, 8, 15, 8}-{opcao, 12, 16, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
