@@ -1,48 +1,73 @@
 programa
-{
-	inclua biblioteca Util -->u
+{    
+	inclua biblioteca Util
+	inclua biblioteca Tipos
 	
-	funcao inicio()
-	{
-		escreva("Bem vindo ao Mercado\n Escolha uma categoria abaixo:")
-		
-		cadeia comEstoque[3][3], semEstoque[3][3]
-		
-		comEstoque[0][1] = "Banana"
-		comEstoque[0][1] = "Uva"
-		comEstoque[0][1] = "Melancia"
+    funcao inicio()
+    {
+        cadeia produtos[][] = {
+        	{"Camisa", "10"},{"Calça", "5"},{"Sapato", "0"},
+        	{"Bone", "20"},{"Saia", "12"}, {"Meia", "0"},
+        	{"Tenis", "0"}, {"Chinelo", "0"}}
+        inteiro opcao
+//menu
+        escreva("Bem vindo ao sistema!\n")
+        escreva("==============MENU==============\n")
+        escreva("1 - Listar produtos com estoque.\n")
+        escreva("2 - Listar produtos sem estoque.\n")
+        escreva("0 - Sair do sistema.\n")
+        leia(opcao)
+        limpa()
+	
+        escolha(opcao)
+        {
+        	caso 1:
+        		escreva("==============Lista de Produtos Com Estoque==============\n")
+        		para(inteiro linha = 0; linha < Util.numero_linhas(produtos); linha++)
+        		{
+        			inteiro numeroConvertido = Tipos.cadeia_para_inteiro(produtos[linha][1], 10)
+        			se(numeroConvertido > 0)
+        			{
+        				escreva("PRODUTO: " + produtos[linha][0] + " | QUANTIDADE: " + produtos[linha][1] + "\n")
+        			}
+        		}
+        		pare
+   		caso 2:
+   			escreva("==============Lista de Produtos Sem Estoque==============\n")
+        		para(inteiro linha = 0; linha < Util.numero_linhas(produtos); linha++)
+        		{
+        			inteiro numeroConvertido = Tipos.cadeia_para_inteiro(produtos[linha][1], 10)
+        			se(numeroConvertido == 0)
+        			{
+        				escreva("PRODUTO: " + produtos[linha][0] + " | QUANTIDADE: " + produtos[linha][1] + "\n")
+        			}
+        		}
+   			pare
+		caso 0:
+   			escreva("==============Saindo do sistema==============\n")
+   			escreva("Volte sempre...\n")
+   			pare
+		caso contrario:
+			escreva("Opção inválida")			
+        }
 
-		semEstoque[1][0] = "Kiwi"
-		semEstoque[2][1] = "Morango"
-		semEstoque[3][2] = "Laranja"
-		
-		escreva(comEstoque[0][1] + "\n")
-		escreva(comEstoque[0][1] + "\n")
-		escreva(comEstoque[0][1] + "\n")
-		
-		escreva(semEstoque[0][1] + "\n")
-		escreva(semEstoque[0][1] + "\n")
-		escreva(semEstoque[0][1] + "\n")
+		Util.aguarde(5000)
+		limpa()
 
-	para(inteiro contador = 0; contador <3; contador++)
+		se(opcao > 0)
 		{
-			escreva("Digite um nome.\n")
-			leia(comEstoque)
-		}
-
-			
-	
-		
-	}
+			inicio()
+		}        	
+    }
 }
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 691; 
+ * @POSICAO-CURSOR = 1565; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = ;
+ * @SIMBOLOS-INSPECIONADOS = {produtos, 8, 15, 8}-{opcao, 12, 16, 5}-{linha, 26, 23, 5}-{numeroConvertido, 28, 19, 16}-{linha, 37, 23, 5}-{numeroConvertido, 39, 19, 16};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
