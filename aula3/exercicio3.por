@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Util -->u
+	inclua biblioteca Util
 	
 	funcao inicio()
 	{
@@ -15,8 +15,10 @@ programa
 
 			se(entrada <0)
 			{
-				escreva("ERRO!! Este valor nao pode ser negativo.\n\n")
+				escreva("Volte ao inicio e digite um valor válido.\n\n")
 				contador--
+				Util.aguarde(2000)
+				inicio()
 			}
 			senao
 			{
@@ -37,9 +39,9 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 424; 
+ * @POSICAO-CURSOR = 405; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {numeros, 7, 10, 7}-{contador, 10, 15, 8}-{entrada, 12, 11, 7}-{contador, 27, 15, 8};
+ * @SIMBOLOS-INSPECIONADOS = {numeros, 7, 10, 7}-{resultado, 8, 10, 9}-{contador, 10, 15, 8}-{entrada, 12, 11, 7}-{contador, 29, 15, 8};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

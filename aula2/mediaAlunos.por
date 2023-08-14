@@ -11,7 +11,7 @@ programa
 		escreva("Na segunda disciplina temos: \n")
 		leia(disciplina2)
 		
-		escreva("Media de alunos que estudam na madrugada e: ")
+		escreva("A media de alunos que estudam na madrugada é: ")
 		escreva( disciplina1 * alunosgeral / 100 )
 		
 	}
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 347; 
+ * @POSICAO-CURSOR = 345; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

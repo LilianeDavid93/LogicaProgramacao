@@ -2,7 +2,7 @@ programa
 {	
 	funcao inicio()
 	{
-		inteiro frase = 1
+		inteiro frase = 0
 
 		enquanto(frase < 20 )
 		{
@@ -16,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 10; 
+ * @POSICAO-CURSOR = 51; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = {frase, 5, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
