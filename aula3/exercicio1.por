@@ -1,10 +1,8 @@
 programa
-{/*1. Escreva um algoritmo que exiba 20 vezes a mensagem “Agora eu vou
-entender o laço de repetição!”.*/
-	
+{	
 	funcao inicio()
 	{
-		inteiro frase = 1
+		inteiro frase = 0
 
 		enquanto(frase < 20 )
 		{
@@ -18,9 +16,9 @@ entender o laço de repetição!”.*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 260; 
+ * @POSICAO-CURSOR = 51; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {frase, 7, 10, 5};
+ * @SIMBOLOS-INSPECIONADOS = {frase, 5, 10, 5};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */

@@ -1,17 +1,5 @@
-/*4. O programa "Triângulo" irá pedir três valores de ângulos e irá classificar os
-triângulos em Acutângulo, Obtusângulo ou Retângulo (caso não se recorde
-das classificações, pesquise por “classificação de triângulo em relação aos
-ângulos”). Depois disso, escreva os ângulos e a classificação do triângulo.
-
-Existem duas maneiras de classificar triângulos.
-Uma delas leva em consideração os ângulos e, nesse caso, 
-um triângulo pode ser acutângulo, quando possui todos os seus ângulos internos agudos; 
-retângulo, quando um dos seus ângulos internos é reto; 
-ou obtusângulo, quando um de seus ângulos internos é obtuso.*/
-
 programa
 {
-	
 	funcao inicio()
 	{
 		real angulo1, angulo2, angulo3
@@ -44,8 +32,6 @@ programa
 			escreva("Esse não é um triângulo válido.")
 		}
 		
-
-		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -53,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 944; 
+ * @POSICAO-CURSOR = 724; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

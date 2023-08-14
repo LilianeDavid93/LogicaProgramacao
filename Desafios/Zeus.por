@@ -1,17 +1,5 @@
 programa
-{/*3. (DESAFIO) Crie o programa “Zeus”, que após ler dois números inteiros
-apresenta as operações de soma, subtração, multiplicação e divisão com
-eles.
-Obs.: Trate o maior número possível de erros (ex: operações com números
-negativos, divisão por zero, uso de letras, etc).
-Exemplo:
-Número 1: 5
-Número 2: -2
-Soma: 3
-Subtração: 7
-Multiplicação: -10
-Divisão: -2.5*/
-	
+{	
 	funcao inicio()
 	{
 		escreva("Bem vindo ao programa Zeus! \n")
@@ -43,7 +31,7 @@ Divisão: -2.5*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 456; 
+ * @POSICAO-CURSOR = 10; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

@@ -1,14 +1,5 @@
 programa
 {
-/*6. O sistema “Múltiplos de 6” irá pedir ao usuário um intervalo, maior que 100,
-de valores inteiros. Após, irá somar os três primeiros com os três últimos
-múltiplos de 6 desse intervalo. Ao final, imprime os múltiplos e o resultado
-da soma.
-
-“Para que um número seja divisível por 6 ele deve ser um número par e a 
-soma dos seus algarismos deve ser divisível por 3.
-M(6) = {0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, ... }*/
-	
 	funcao inicio()
 	{					
 		inteiro valorInicial = 0, valorFinal = 0, resultadoSoma = 0, primeiroMultiplo = 0, ultimoMultiplo = 0	
@@ -71,9 +62,9 @@ M(6) = {0, 6, 12, 18, 24, 30, 36, 42, 48, 54, 60, 66, 72, ... }*/
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 378; 
+ * @POSICAO-CURSOR = 10; 
  * @PONTOS-DE-PARADA = ;
- * @SIMBOLOS-INSPECIONADOS = {valorInicial, 14, 10, 12}-{valorFinal, 14, 28, 10}-{resultadoSoma, 14, 44, 13}-{primeiroMultiplo, 14, 63, 16}-{ultimoMultiplo, 14, 85, 14}-{i, 60, 16, 1}-{numeroCorrente, 31, 12, 14}-{aux, 34, 13, 3}-{i, 60, 16, 1}-{i, 60, 16, 1};
+ * @SIMBOLOS-INSPECIONADOS = {valorInicial, 5, 10, 12}-{valorFinal, 5, 28, 10}-{resultadoSoma, 5, 44, 13}-{primeiroMultiplo, 5, 63, 16}-{ultimoMultiplo, 5, 85, 14}-{i, 20, 16, 1}-{numeroCorrente, 22, 12, 14}-{aux, 25, 13, 3}-{i, 46, 16, 1}-{i, 51, 16, 1};
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
  * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
  */
